@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    margin: 8px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color: #302E2E;
+    margin: 30px 100px;
+    border-radius: 20px;
+}
+.container .div__h1{
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    font-weight: 700;
+    margin: 60px 0px;
+    
+}
+.div__h1 span{
+    color: red;
+}
+
+.div__img img{
+width: 400px;
+border-radius: 40px;
+box-shadow: red 5px 5px 500px 0px;
+margin: 16px;
+}
+
+container__p--description{
+    margin: 16px;
+}
+.container__para{
+    margin: 20px 74px;
+    text-align: justify;
+    font-size: 24px;
+}
+.container__marvel-h2{
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    margin: 20px 0px 20px 74px;
+    color: red;
+}
+.listdiv__ul{
+   list-style-position: outside;
+   text-align: left;
+   margin: 0px 74px ;
+   line-height: 48px;
+   font-size: 24px;
+}
+.footer__info{
+    font-size: 32px;
+    margin: 32px 0px;
+    padding: 32px;
+}
+.footer__info a{
+    text-decoration: none;
+    border: 2px solid #ff8c00;
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.footer__info a:hover{
+    color: red;
+    background-color: #302E2E;
+}
